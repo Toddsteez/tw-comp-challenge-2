@@ -1,0 +1,433 @@
+* {font-family: 'Jockey One', sans-serif;
+}
+
+html,
+body {
+  background: #fffff0;
+  box-sizing: border-box;
+  font-weight: lighter;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #212121;
+  color: #CCA43B;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account {
+  color: #FDFEFE;
+}
+
+.logo-login-wrapper {
+  align-self: flex-end;
+  flex-direction: column;
+  padding: 10px 0px 20px 0px;
+  position: relative;
+}
+
+.account {
+  background-image: url(assets/avatar.svg);
+  background-position: 238px 28%;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  display: inline-block;
+  padding: 5px 30px 20px 270px;
+  font-size: 20px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 72px;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.map-logo{
+  margin: 0 20px -12px 10px;
+}
+
+.menu-icon {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 20px;
+}
+
+.logo-wrapper img {
+  height: 74px;
+}
+
+nav {
+  align-self: flex-end;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+}
+
+a {
+  color: black;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.nav-search {
+  background-image: url(assets/005-magnifying-glass.svg);
+  background-position: 17px 29%;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  color: #FDFEFE;
+  padding: 5px 5px 20px 50px;
+}
+
+.nav-popular {
+  background-image: url(assets/004-star.svg);
+  background-position: 17px 29%;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  color: #FDFEFE;
+  padding: 5px 5px 20px 50px;
+}
+
+.nav-social {
+  background-image: url(assets/003-network.svg);
+  background-position: 17px 29%;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  color: #FDFEFE;
+  padding: 5px 5px 20px 50px;
+}
+
+main {
+  margin: auto;
+  max-width: 1376px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+}
+
+h2 {
+  color: black;
+  font-size: 2em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.card {
+  background-color: #f3f3f2;
+  border: 2px black;
+  box-shadow: 2px 2px 2px 2px #8b8b83;
+  height: 500px;
+  margin: 10px;
+  width: 320px;
+}
+
+.heart-icon {
+  margin: 22px;
+  width: 50px;
+}
+
+p {
+  margin: 0;
+  word-break: break-all;
+}
+
+.beens-card {
+  margin: 0;
+  position: absolute;
+  right: 18px;
+  top: 13px;
+}
+
+.number-beens-card {
+  font-size: 40px;
+  font-weight: lighter;
+  position: absolute;
+  top: 30px;
+  right: 21px;
+}
+
+figure {
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  height: 200px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.figure1 {
+  background-image: url(assets/nyc-skyline.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure1:hover {
+  background-image: url(assets/nyc-skyline.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure2 {
+  background-image: url(assets/portland-skyline.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+  .figure2:hover {
+  background-image: url(assets/portland-skyline.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure3 {
+  background-image: url(assets/miami.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure3:hover {
+  background-image: url(assets/miami.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure4 {
+  background-image: url(assets/boston.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure4:hover {
+  background-image: url(assets/boston.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure5 {
+  background-image: url(assets/denver-skyline.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure5:hover {
+  background-image: url(assets/denver-skyline.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure6 {
+  background-image: url(assets/asheville.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure6:hover {
+  background-image: url(assets/asheville.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure7 {
+  background-image: url(assets/los-angeles.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure7:hover {
+  background-image: url(assets/los-angeles.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure8 {
+  background-image: url(assets/seattle-skyline.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.figure8:hover {
+  background-image: url(assets/seattle-skyline.jpg);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.wrapper-card-info {
+  padding: 5%;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+
+time {
+  color: #696969;
+  font-size: 14px;
+}
+
+.wiki-url {
+  background: #e4e4e4;
+  color: #696969;
+  margin: 15px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+.aka-text {
+  font-size: 12px;
+}
+
+.nickname {
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.funness-number {
+  color: #242F40;
+  font-size: 40px;
+}
+
+#dummy-flex-card {
+  display: none;
+}
+
+@media screen and (max-width: 1359px) {
+
+  #dummy-flex-card {
+    display: unset;
+    visibility: hidden;
+  }
+
+  h2 {
+    margin: 26px auto;
+    max-width: 1010px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+
+  h2 {
+    max-width: 670px;
+  }
+
+  #dummy-flex-card {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 840px) {
+
+  nav {
+    padding: 20px 0 0 0;
+  }
+
+  nav a {
+    display: block;
+
+  }
+
+  .logo-login-wrapper {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 687px) {
+
+  h2 {
+    max-width: 320px
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .account {
+    background-size: 22px;
+    background-position: 170px 28%;
+    padding: 5px 30px 20px 200px;
+    font-size: 24px;
+  }
+
+  .menu-icon {
+    width: 30px;
+  }
+
+  h1 {
+    margin: 0 0 0 68px;
+  }
+
+  .map-logo{
+    margin: 0 20px 0px 125px;
+  }
+
+  nav {
+    align-self: center;
+    order: 2;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
+
+  .logo-login-wrapper {
+    align-self: center;
+    margin-bottom: -20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .nav-social {
+    background-position: 17px 35%;
+    margin-bottom: 20px;
+    width: 62px;
+  }
+}
+ 
